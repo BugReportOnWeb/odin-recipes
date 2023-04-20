@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    background: #1E1E1E;
+    color: #E5E5E5;
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 3rem 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.image {
+    height: auto;
+    width: 30rem;
+    margin: 1rem 0rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem 1rem;
+}
+
+a {
+    text-decoration: underline;
+    color: #E5E5E5;
+}
+
+ul,
+ol {
+    list-style: inside;
+    margin-left: 0.5rem;
+}
